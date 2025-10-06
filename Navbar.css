@@ -1,0 +1,102 @@
+.nav-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1f2937;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  margin-right: 12px;
+}
+
+.nav-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-subtitle {
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link-btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.nav-link-btn:hover {
+  background-color: #374151;
+}
+
+.nav-link-active {
+  background-color: #4b5563;
+}
+
+.nav-link-icon {
+  margin-right: 6px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.nav-btn-login {
+  background-color: #2563eb;
+  color: white;
+}
+
+.nav-btn-login:hover {
+  background-color: #1e40af;
+}
+
+.nav-btn-signup {
+  background-color: #10b981;
+  color: white;
+}
+
+.nav-btn-signup:hover {
+  background-color: #059669;
+}
+
+.nav-btn-logout {
+  background-color: #ef4444;
+  color: white;
+}
+
+.nav-btn-logout:hover {
+  background-color: #dc2626;
+}

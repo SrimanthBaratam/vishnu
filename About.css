@@ -1,0 +1,191 @@
+.aboutpage {
+  font-family: Arial, sans-serif;
+  background: #fafbfd;
+  color: #222;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #eef4fa 0%, #e3edff 100%);
+  padding: 48px 24px 60px;
+}
+
+.about-hero-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2563eb;
+  padding: 6px 20px;
+  border-radius: 9999px;
+  margin-bottom: 22px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.about-hero-content > div:first-child {
+  flex: 1 1 340px;
+  min-width: 280px;
+}
+
+.about-hero-content > div:last-child {
+  flex: 0 1 390px;
+  min-width: 260px;
+  position: relative;
+}
+
+.about-hero-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(60, 70, 90, 0.12);
+}
+
+.about-hero-badge {
+  position: absolute;
+  left: 20px;
+  bottom: 24px;
+  background: rgba(255 255 255 / 0.9);
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 15px;
+  box-shadow: 0 6px 18px rgba(120, 140, 180, 0.24);
+  color: #334e68;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.about-hero-h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1.1;
+  color: #1e293b;
+  margin: 0 0 1rem;
+}
+
+.about-highlight {
+  color: #2563eb;
+}
+
+.about-hero p {
+  font-size: 17px;
+  color: #475569;
+  max-width: 570px;
+  margin-bottom: 24px;
+}
+
+.about-achievements {
+  display: flex;
+  gap: 32px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.about-achievement {
+  text-align: center;
+  flex: 1;
+  min-width: 90px;
+}
+
+.about-ach-num {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.about-ach-label {
+  font-size: 13px;
+  color: #64748B;
+  margin-top: 6px;
+}
+
+/* Mission & Vision Section */
+.about-mission-vision {
+  display: flex;
+  gap: 48px;
+  padding: 60px 24px 80px;
+  max-width: 1140px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.about-mission,
+.about-vision {
+  flex: 1 1 400px;
+  min-width: 280px;
+}
+
+.about-mission h2,
+.about-vision h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #1e293b;
+}
+
+.about-mission p,
+.about-vision p {
+  color: #475569;
+  font-size: 17px;
+  margin-bottom: 22px;
+  line-height: 1.56;
+}
+
+.about-mission ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-mission ul li {
+  font-size: 15px;
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.about-mission ul li::before {
+  content: "✔️";
+  margin-right: 8px;
+}
+
+.about-vision-card {
+  background-color: #eff6ff;
+  padding: 22px 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgb(60 64 67 / 0.15);
+}
+
+.about-vision-card h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #1e293b;
+}
+
+.about-vision-card p {
+  font-size: 16px;
+  line-height: 1.54;
+  color: #475569;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero-content {
+    flex-direction: column;
+  }
+  .about-mission-vision {
+    flex-direction: column;
+    padding: 48px 24px 60px;
+  }
+}
